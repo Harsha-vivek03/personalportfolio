@@ -1,0 +1,110 @@
+/* Base styles */
+.header1 {
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#headdiv1 h1 {
+    color:orange;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1); /* Light border color for the toggler */
+}
+
+.navbar-toggler-icon {
+    background-color: aliceblue;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+#headdiv2 button {
+    margin-left: 20px;
+    background-color: lightskyblue;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.propsname {
+    margin-left: 4%;
+    margin-top: 1%;
+    color: white;
+}
+
+hr {
+    margin: 0 4%;
+    border-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link button {
+    background-color: orange;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    margin-right: 0;
+    cursor: pointer;
+    padding: 3px;
+    color: black; /* Ensure the button text is white */
+}
+
+.navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-nav .nav-link {
+    margin: 0 10px;
+    
+}
+.nav-btn{
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+}
+.nav-btn:hover {
+    background-color: #20b2aa; /* Coral */
+    transform: scale(1.05);
+    color: whitesmoke;
+}
+
+@media (max-width: 768px) {
+    .header1 {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 10px 0;
+    }
+
+    .propsname {
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+
+    hr {
+        margin: 0 2%;
+    }
+
+    .navbar-nav {
+        background-color: black; /* Ensures the dropdown background is black */
+        padding: 10px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .nav-link button {
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+}
+
+.headd {
+    padding: 2%;
+    background-color: black; /* Ensure header background is black */
+}

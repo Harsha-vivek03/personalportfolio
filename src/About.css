@@ -1,0 +1,207 @@
+.about {
+    margin: 3% 8%;
+    width: 84vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5%;
+    color: #f0f0f0; /* Light text color for better readability */
+}
+
+.left {
+    padding-left: 10%;
+}
+
+.left p {
+    font-size: 1.6rem;
+    font-weight: bold; /* Bold text for section titles */
+}
+
+.leftdiv1 p {
+    color: #ffb6c1; /* Light Pink */
+}
+
+.leftdiv2 p {
+    color: #ffa07a; /* Light Salmon */
+}
+
+.leftdiv3 p {
+    color: #ff6347; /* Tomato */
+}
+
+.leftdiv4 p {
+    color: #48d1cc; /* Medium Turquoise */
+}
+
+.right ul li {
+    font-size: 1.4rem;
+    color: #f0f0f0; /* Light text color for better readability */
+}
+
+.rightdiv1 li {
+    list-style-type: none;
+    color: #ffb6c1; /* Light Pink */
+}
+
+.rightdiv2 li {
+    list-style-type: disc;
+    color: #ffa07a; /* Light Salmon */
+}
+
+.rightdiv3 li {
+    list-style-type: square;
+    color: #ff6347; /* Tomato */
+}
+
+.rightdiv4 li {
+    list-style-type: circle;
+    color: #48d1cc; /* Medium Turquoise */
+}
+
+.skilldivs {
+    height: 4vh;
+    width: 30vw;
+    background-color: grey;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#c {
+    height: 100%;
+    width: 70%;
+    background-color: #ffa07a; /* Light Salmon */
+    border-radius: 8px;
+    text-align: right;
+    color: black; /* Dark text color for contrast */
+    padding-right: 5px; /* Padding for better readability */
+}
+
+#java {
+    height: 100%;
+    width: 70%;
+    background-color: #ffa07a; /* Light Salmon */
+    border-radius: 8px;
+    text-align: right;
+    color: black;
+    padding-right: 5px;
+}
+
+#python {
+    height: 100%;
+    width: 60%;
+    background-color: #ffebcd; /* Blanched Almond */
+    border-radius: 8px;
+    text-align: right;
+    color: black;
+    padding-right: 5px;
+}
+
+#react {
+    height: 100%;
+    width: 60%;
+    background-color: #3cb371; /* Medium Sea Green */
+    border-radius: 8px;
+    text-align: right;
+    color: black;
+    padding-right: 5px;
+}
+
+#css {
+    height: 100%;
+    width: 80%;
+    background-color: #f08080; /* Light Coral */
+    border-radius: 8px;
+    text-align: right;
+    color: black;
+    padding-right: 5px;
+}
+
+#ms {
+    height: 100%;
+    width: 70%;
+    background-color: #20b2aa; /* Light Sea Green */
+    border-radius: 8px;
+    text-align: right;
+    color: black;
+    padding-right: 5px;
+}
+
+#cs {
+    height: 100%;
+    width: 70%;
+    background-color: #dda0dd; /* Plum */
+    border-radius: 8px;
+    text-align: right;
+    color: black;
+    padding-right: 5px;
+}
+
+#html {
+    height: 100%;
+    width: 90%;
+    background-color: #dc143c; /* Crimson */
+    border-radius: 8px;
+    text-align: right;
+    color: black;
+    padding-right: 5px;
+}
+
+#node {
+    height: 100%;
+    width: 40%;
+    background-color: #dc143c; /* Crimson */
+    border-radius: 8px;
+    text-align: right;
+    color: black;
+    padding-right: 5px;
+}
+
+/* Media queries for mobile responsiveness */
+@media (max-width: 768px) {
+    .about {
+        margin: 3% 4%;
+        width: 92vw;
+        grid-template-columns: 1fr;
+        grid-gap: 4%;
+    }
+
+    .left {
+        padding-left: 0;
+    }
+
+    .left p {
+        font-size: 1.4rem;
+    }
+
+    .right ul li {
+        font-size: 1.2rem;
+    }
+
+    .skilldivs {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        margin: 3% 2%;
+        width: 96vw;
+        grid-gap: 2.5%;
+    }
+
+    .left p {
+        font-size: 1.2rem;
+    }
+
+    .right ul li {
+        font-size: 1rem;
+    }
+
+    .skilldivs {
+        width: 90vw;
+    }
+}
+.icon{
+    color: paleturquoise;
+    margin-right: 7px;
+}
